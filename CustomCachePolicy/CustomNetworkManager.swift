@@ -1,5 +1,5 @@
 //
-//  CustomCachedURLSession.swift
+//  CustomNetworkManager.swift
 //  CustomCachePolicy
 //
 //  Created by Sumeet Gupta on 27/04/19.

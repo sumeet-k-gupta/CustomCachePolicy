@@ -13,7 +13,7 @@
 		0133136F22736A0E00502AFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0133136E22736A0E00502AFD /* Assets.xcassets */; };
 		0133137222736A0E00502AFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0133137022736A0E00502AFD /* LaunchScreen.storyboard */; };
 		0133137D22736A0E00502AFD /* CustomCachePolicyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0133137C22736A0E00502AFD /* CustomCachePolicyTests.swift */; };
-		0133138822743A4B00502AFD /* CustomCachedURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0133138722743A4A00502AFD /* CustomCachedURLSession.swift */; };
+		0133138822743A4B00502AFD /* CustomNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0133138722743A4A00502AFD /* CustomNetworkManager.swift */; };
 		0163E82A2276A01F00CB2067 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0163E8292276A01F00CB2067 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +38,7 @@
 		0133137822736A0E00502AFD /* CustomCachePolicyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCachePolicyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0133137C22736A0E00502AFD /* CustomCachePolicyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCachePolicyTests.swift; sourceTree = "<group>"; };
 		0133137E22736A0E00502AFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0133138722743A4A00502AFD /* CustomCachedURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCachedURLSession.swift; sourceTree = "<group>"; };
+		0133138722743A4A00502AFD /* CustomNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNetworkManager.swift; sourceTree = "<group>"; };
 		0163E8292276A01F00CB2067 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,7 +83,7 @@
 			children = (
 				0133136722736A0B00502AFD /* AppDelegate.swift */,
 				0133136922736A0B00502AFD /* ViewController.swift */,
-				0133138722743A4A00502AFD /* CustomCachedURLSession.swift */,
+				0133138722743A4A00502AFD /* CustomNetworkManager.swift */,
 				0163E8292276A01F00CB2067 /* NetworkManager.swift */,
 				0133136B22736A0B00502AFD /* Main.storyboard */,
 				0133136E22736A0E00502AFD /* Assets.xcassets */,
@@ -204,7 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0163E82A2276A01F00CB2067 /* NetworkManager.swift in Sources */,
-				0133138822743A4B00502AFD /* CustomCachedURLSession.swift in Sources */,
+				0133138822743A4B00502AFD /* CustomNetworkManager.swift in Sources */,
 				0133136A22736A0B00502AFD /* ViewController.swift in Sources */,
 				0133136822736A0B00502AFD /* AppDelegate.swift in Sources */,
 			);
