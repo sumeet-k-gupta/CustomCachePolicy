@@ -19,17 +19,6 @@ protocol CachedAPIManager: APIManager {
     func fetchData(fromURL url: String!, cachePolicy: CustomCachePolicy, cacheMissResponse: Any?, atCompletionSuccess completionSuccess: ((URLResponse?, Any?) -> Void)!, atCompletionFailure completionFailure: ((URLResponse?, Error?) -> Void)!) -> URLSessionDataTask!
 }
 
-class CustomSessionConfiguration: URLSessionConfiguration {
-
-    override class var `default`: CustomSessionConfiguration {
-        let config = URLSessionConfiguration.default as! CustomSessionConfiguration
-        config.customCachePolicy = .urlCachePolicy(config.requestCachePolicy)
-        return config
-    }
-
-    open var customCachePolicy: CustomCachePolicy = .urlCachePolicy(URLSessionConfiguration.default.requestCachePolicy)
-}
-
 extension NetworkManager: CachedAPIManager {
     func fetchData(fromURL url: String!, cachePolicy: CustomCachePolicy, cacheMissResponse: Any? = nil, atCompletionSuccess completionSuccess: ((URLResponse?, Any?) -> Void)!, atCompletionFailure completionFailure: ((URLResponse?, Error?) -> Void)!) -> URLSessionDataTask! {
 
