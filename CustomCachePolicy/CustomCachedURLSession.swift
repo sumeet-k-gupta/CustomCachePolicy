@@ -2,7 +2,7 @@
 //  CustomCachedURLSession.swift
 //  CustomCachePolicy
 //
-//  Created by Sumeet Kumar Gupta on 27/04/19.
+//  Created by Sumeet Gupta on 27/04/19.
 //  Copyright © 2019 Example. All rights reserved.
 //
 
